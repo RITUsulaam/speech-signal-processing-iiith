@@ -1,0 +1,223 @@
+{
+    "artciles": [
+        {
+            "quiztitle":"Quiz for Nature of Speech signal",
+            "containers":"5"
+        },
+        {
+            "q": "The Nyquist theorem for sampling",
+            "option": [
+                "Relates the conditions in time domain and frequency domain",
+ 				"Helps in quantization",
+				" Gives the spectrum of the signal"
+				
+            ],
+            "answer": "Relates the conditions in time domain and frequency domain",
+            "description": "no explanation " },
+        {
+            "q": "Speech waveforms are ",
+            "option": [
+                 "Bandlimited",
+                "Bandpass",
+                "High pass",
+                "Infinite bandwidth"
+                
+            ],
+            "answer": "Bandlimited",
+            "description": " The most basic property of speech waveforms that is exploited by all speech coders is that they are bandlimited. A finite bandwidth means that it can be time-discretized at a finite rate and reconstructed complexity from its samples."
+        },
+        {
+            "q": "Spectral flatness measure is the ratio of ______ and ____",
+            "option": [
+                "Variance, Geometric mean",
+                "Geometric Mean, Variance",
+                "Arithmetic mean, geometric mean",
+                "Geometric mean, arithmetic mean"
+            ],
+            "answer":  "Arithmetic mean, geometric mean",
+            "description":"Spectral flatness measure is defined as ratio of arithmetic to geometric mean of the samples of the PSD taken at uniform intervals in frequency. Spectral flatness measure is a qualitative measure of the theoretical maximum coding gain that can be obtained by exploiting the nonflat characteristics of speech spectra."
+        },
+        {
+            "q": "  Decimation is a process in which the sampling rate is __________.",
+            "option": [
+                "enhanced",
+                "stable",
+
+                "reduced",
+                "unpredictable"
+		 ],
+            "answer": "reduced",
+            "description": "In Decimation sampling rate is reduced"
+        },
+        {
+            "q": "For an expanded power series method, the coefficients represent",
+            "option": [
+                "Inverse sequence values",
+                 "Original sequence values",
+                 "Negative values only",
+                 "Positive values only"
+            ],
+            "answer": "Inverse sequence values",
+            "description":"no description "
+        },
+        {
+            "q": " Which of the following is not a property that is utilized in coder design?",
+            "option": [
+               "Non zero autocorrelation between successive speech signals",
+                 "Non flat nature of speech signal",
+                "Quasiperiodicity of voiced speech signals",
+                "Uniform probability distribution of speech amplitude"
+			            ],
+			            "answer": "Uniform probability distribution of speech amplitude",
+            "description":  "Speech waveforms have a number of useful properties that can be exploited when designing efficient coders. They are non uniform probability distribution of speech amplitude, non-zero autocorrelation between successive speech samples, the nonflat nature of the speech spectra and quasiperiodicity of voiced speech signals."
+        },
+        {
+            "q": "Which of the following is not a property of pdf of speech signals?",
+               "option": [
+                "Non uniformity",
+                "Very high probability of non-zero amplitudes",
+                "Significant probability of very high amplitudes",
+                "Increasing function of amplitudes between these extremes"
+            ],
+            "answer": "Increasing function of amplitudes between these extremes",
+            "description": "There is a non-uniform probability distribution of speech amplitude. The pdf of a speech signal is in general characterized by a very high probability of non-zero amplitudes, a significant probability of very high amplitudes, and a monotonically decreasing function of amplitudes between these extremes."
+        },
+        {
+            "q": "  Auto correlation function measures______ between samples of a speech signal as a function of _______",
+            "option": [
+                "Similarity, frequency"
+                "Dissimilarity, time",
+                "Similarity, time",
+                "Dissimilarity, frequency"
+            ],
+            "answer": "Dissimilarity, time",
+            "description": "The autocorrelation function (ACF) gives a quantitative measure of the closeness or similarity between samples of a speech signal as a function of their time separation. In every sample of speech, there is a large component that is easily predicted from the values of the previous samples."
+        },
+        {
+            "q": "A concept that contains rhythm of speech, stress patterns and intonation is ________.",
+            "option": [
+               "Text synthesis",
+                "Prosody",
+                "Speech Synthesis",
+                "Formant Synthesis"
+            ],
+            "answer": "Prosody",
+            "description": "Prosody is the correct term. It contains three main parts: the rhythm of speech, the stress patterns and the intonation. Intonation is a term used for the rise and fall when a person speaks."
+        },
+        {
+            "q": "Speech Synthesis method based on the generation of periodic and non-periodic signals is ____________",
+            "option": [
+           "Formant",
+            "Summative",
+            "Conactenative",
+            "Articulative",
+		],
+
+            "answer":"Formant",
+            "description": "Formant synthesis is based on the same. It is based on the well known source-filter model whose idea is to generate periodic and non-periodic signals.",
+        }
+        {
+            "q": "A speech synthesis model which tries to model the human speech production mechanisms is _________",
+            "option": [
+               "Articulatory Synthesis",
+                "Formant Synthesis",
+                "Summative Synthesis",
+                "Concatenative Synthesis"
+            ],
+            "answer":" Articulatory Synthesis",
+            "description": "Articulative Synthesis tries to model the human speech production mechanisms. It is by far the most complicated speech synthesis method. Its implementation is difficult and therefore is not widely used."
+        },
+        {
+            "q": " What is the medium to convert text information into spoken sentences?",
+            "option": [
+               "Speech Sensors"
+                "Compact convertors",
+                "Speech Synthesizers",
+                "Voice systems"
+            ],
+            "answer": "Speech Synthesizers",
+            "description":  "A speech synthesizer converts text information into spoken sentences. It is used for reading out text information to blind people. This allows people to communicate effectively.",
+        },
+        {
+            "q": "Which of these factors is not required to determine the purpose of speech?",
+            "option": [
+               "Providing information",
+                "Discouragement",
+                "Accepting ideas",
+                "Entertainment",
+            ],
+            "answer":  "Discouragement",
+            "description": "Three main factors are required to determination the purpose of speech. They are: providing information, to make acceptance of ideas and entertainment."        
+        },
+        {
+            "q": "What is the full form of SAMPA?",
+            "option": [
+                 "Speech Assessment Methods-Phonetic Alphabet",
+                "Speech Assessment Methods-Prosodic Access",
+                "Speech Assessment Methods-Phonetic Arrangement",
+                "Speech Assessment Methods- Prosodic Alphabet"
+            ],
+            "answer":  "Speech Assessment Methods-Phonetic Alphabet",
+            "description":  "IPA(International phonetic association) contains some symbols that are complicated and cannot be found in typewriters. SAMPA is an example of alphabets which are compatible with computers and based on ASCII characters.",
+        },
+        {
+            "q": "Low frequency signals contribute very little to the total speech signals.",
+                 "option": [
+             "True",
+             " False",
+            ],
+            "answer":  " False",
+            "description": "Lon term averaged PSD’s of speech show that high frequency signals contribute very little to the total speech energy. However, high frequency components are insignificant in energy, they are very important carriers of speech information.",   
+        },
+     
+        {
+            "q": "What is the nature of excitation for silence region",
+                "option": [
+                	"Near periodic vibration of vocal folds",
+
+                    "Random noise",
+
+                    "Single impulse",
+
+                    "No excitation"
+				],
+            "answer": "No excitation",
+            "description": "During silence region, there is no excitation supplied to the vocal tract and hence no speech output. However, silence is an integral part of speech signal."
+        },
+        
+        
+        {
+            "q": "Speech waveforms are _______",
+            "option": [
+                    "Bandlimited",
+                    "Bandpass",
+                    "High pass",
+                    "Infinite bandwidth",        
+         ],
+            "answer": "Bandlimited",
+            "description": "The most basic property of speech waveforms that is exploited by all speech coders is that they are bandlimited. A finite bandwidth means that it can be time-discretized at a finite rate and reconstructed complexity from its samples.",
+        },
+        {
+            "q": "A speech synthesis model which tries to model the human speech production mechanisms is _________",
+            "option": [
+               "Articulatory Synthesis",
+                "Formant Synthesis",
+                "Summative Synthesis",
+                "Concatenative Synthesis",
+            ],
+            "answer":"Articulatory Synthesis",
+            "description": "Articulative Synthesis tries to model the human speech production mechanisms. It is by far the most complicated speech synthesis method. Its implementation is difficult and therefore is not widely used.",
+        },
+        {
+            "q": " Waveform coders has _______ complexity and achieves _______ economy in transmission bit rate.",
+            "option": [
+                "Maximum, moderate",
+                "Maximum, high",
+                "Minimal, moderate",
+                "Minimal, high"
+            ],
+            "answer":  "Minimal, moderate",
+            "description": "Waveform coders have minimal complexity. This class of coders achieves only moderate economy in transmission bit rate. They are designed to be source independent and hence code equally well a variety of signals."
+        }
+    ]
+}
